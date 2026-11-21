@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Sharif | AI Student and Backend Developer</title>
+  <meta name="description" content="Portfolio of Muhammad Sharif, BS Artificial Intelligence student at Sindh University. Backend and full-stack projects in Python, Flask, Node.js and React.">
+
+  <!-- Fonts from DESIGN.md: Anton for display, Inter for everything else -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:ital,wght@0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="top">
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Back to top">
+        <span class="brand-dots" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <span class="brand-name">Muhammad Sharif</span>
+      </a>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <a href="#projects">Projects</a>
+        <a href="#stack">Stack</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="pill pill-outline pill-small" href="mailto:steameraccount2222@gmail.com">Email me</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-rings" aria-hidden="true">
+        <span class="ring ring-lg"></span>
+        <span class="ring ring-md"></span>
+      </div>
+
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">AI student, Sindh University</p>
+          <h1 class="hero-title" id="hero-title">Muhammad<br>Sharif</h1>
+          <p class="hero-lead">I turn data and ideas into working software.</p>
+          <p class="hero-body">
+            BS Artificial Intelligence student building backends and full-stack apps
+            with Python, Flask and Node.js. Working toward an AI application engineering internship.
+          </p>
+
+          <div class="hero-actions">
+            <a class="pill pill-cream" href="#projects">
+              <span>View projects</span>
+              <span class="arrow-circle" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </span>
+            </a>
+            <a class="pill pill-outline" href="assets/Muhammad_Sharif_CV.pdf" download>Download CV</a>
+          </div>
+        </div>
+
+        <ul class="hero-badges" aria-label="Focus areas">
+          <li>
+            <span class="badge-ring" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+            </span>
+            <div>
+              <strong>Python and Flask</strong>
+              <small>REST APIs, SQLAlchemy, auth</small>
+            </div>
+          </li>
+          <li>
+            <span class="badge-ring" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+            </span>
+            <div>
+              <strong>Node.js and React</strong>
+              <small>Express APIs, protected routes</small>
+            </div>
+          </li>
+          <li>
+            <span class="badge-ring" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h16M4 12h16M4 16h16"/></svg>
+            </span>
+            <div>
+              <strong>Git, Docker, CI</strong>
+              <small>GitHub Actions, containers</small>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ TELEMETRY STRIP ============ -->
+    <div class="strip" aria-hidden="true">
+      <div class="container strip-inner">
+        <span>Python</span>
+        <span>Flask</span>
+        <span>Node.js</span>
+        <span>React</span>
+        <span>SQL</span>
+        <span>MongoDB</span>
+        <span>Docker</span>
+        <span>Git</span>
+      </div>
+    </div>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Selected work</p>
+          <h2 class="section-title" id="projects-title">Projects</h2>
+        </header>
+
+        <article class="project">
+          <div>
+            <h3>Campus Marketplace</h3>
+            <p class="project-stack">Node.js, Express, MongoDB, React, JWT</p>
+          </div>
+          <div class="project-body">
+            <p>A buy-and-sell and lost-and-found web app for Sindh University students.</p>
+            <ul>
+              <li>REST APIs with listing CRUD and ownership checks</li>
+              <li>Passwords hashed with bcrypt, routes secured with JWT</li>
+              <li>Data stored in MongoDB Atlas, images uploaded with Multer and Cloudinary</li>
+              <li>React frontend with login, registration, search, category filters and protected routes</li>
+              <li>GitHub Actions CI that checks backend and frontend on every push</li>
+            </ul>
+            <a class="text-link" href="https://github.com/Muhammadsharif-21/campus-marketplace" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div>
+            <h3>Movie and Anime Watchlist Tracker</h3>
+            <p class="project-stack">Flask, Flask-RESTful, SQLAlchemy, Flask-Login, Docker</p>
+          </div>
+          <div class="project-body">
+            <p>A full-stack app for tracking movies and anime you want to watch or have finished.</p>
+            <ul>
+              <li>REST API with filtering, pagination and sorting by aggregated rating</li>
+              <li>OMDb API integration for movie and show data</li>
+              <li>User login with Flask-Login and per-user ownership enforcement</li>
+              <li>Containerized with Docker and docker-compose, served with Gunicorn</li>
+            </ul>
+            <a class="text-link" href="https://github.com/Muhammadsharif-21/MOVIE-REC" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+          </div>
+        </article>
+
+      
+
+        <article class="project">
+          <div>
+            <h3>FlaskMarket</h3>
+            <p class="project-stack">Flask, SQLAlchemy, Flask-WTF, Flask-Login, Bootstrap 5</p>
+          </div>
+          <div class="project-body">
+            <p>An e-commerce app for buying and selling items.</p>
+            <ul>
+              <li>Buying and selling logic with an admin panel and per-item modals</li>
+              <li>Restructured the codebase into a proper Flask package as it grew</li>
+            </ul>
+            <a class="text-link" href="https://github.com/Muhammadsharif-21/FLASKMARKET" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ STACK ============ -->
+    <section class="section" id="stack" aria-labelledby="stack-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Tools I use</p>
+          <h2 class="section-title" id="stack-title">Stack</h2>
+        </header>
+
+        <dl class="stack-list">
+          <div>
+            <dt>Languages</dt>
+            <dd>Python, Java, C, JavaScript, Assembly (8086), SQL</dd>
+          </div>
+          <div>
+            <dt>Backend</dt>
+            <dd>Flask, Flask-RESTful, Node.js, Express.js, REST APIs, JWT, Flask-Login</dd>
+          </div>
+          <div>
+            <dt>Frontend</dt>
+            <dd>React, HTML, CSS, Bootstrap 5</dd>
+          </div>
+          <div>
+            <dt>Databases</dt>
+            <dd>MongoDB, MySQL, Oracle SQL, SQLite (JOINs, subqueries, GROUP BY)</dd>
+          </div>
+          <div>
+            <dt>Data and AI</dt>
+            <dd>NumPy, Pandas, Matplotlib, Seaborn, Claude API</dd>
+          </div>
+          <div>
+            <dt>Tools and DevOps</dt>
+            <dd>Git, GitHub, GitHub Actions, Docker, Gunicorn, Postman, Thunder Client, deployment basics</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section" id="education" aria-labelledby="education-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Academics</p>
+          <h2 class="section-title" id="education-title">Education</h2>
+        </header>
+
+        <div class="edu-grid">
+          <div class="edu">
+            <h3>BS Artificial Intelligence</h3>
+            <p class="meta">Sindh University, 2nd year, 4th semester</p>
+            <p class="detail">
+              Relevant coursework: Machine Learning, Data Structures and Algorithms,
+              Assembly Language (8086), Software Engineering, Information Security and Digital Logic Design.
+            </p>
+          </div>
+
+          <div class="certs">
+            <h3>Courses and certifications</h3>
+            <ul>
+              <li>CS50P: Introduction to Programming with Python, Harvard University (edX)</li>
+              <li>GitByBit Part 1: Git and GitHub</li>
+              <li>SQL: BroCode and SQLBolt</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ CONTACT + FOOTER ============ -->
+  <footer class="contact" id="contact" aria-labelledby="contact-title">
+    <div class="container">
+      <p class="eyebrow">Get in touch</p>
+      <h2 class="contact-title" id="contact-title">Let's build<br>something</h2>
+      <p class="contact-lead">
+        Open to software engineering internships, junior backend roles and AI application engineering work.
+      </p>
+
+      <div class="contact-actions">
+        <a class="pill pill-cream" href="mailto:steameraccount2222@gmail.com">
+          <span>Email me</span>
+          <span class="arrow-circle" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </span>
+        </a>
+        <nav class="contact-links" aria-label="Social links">
+          <a href="https://github.com/Muhammadsharif-21" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/muahammad-sharif-9b0412240" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="#top">Back to top</a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="year">2026</span> Muhammad Sharif. Hyderabad, Sindh, Pakistan.</p>
+        <p>steameraccount2222@gmail.com</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
